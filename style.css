@@ -1,0 +1,20 @@
+
+body {
+    font-family: 'Questrial', sans-serif;
+}
+
+table {
+    height: 225px;
+    table-layout: fixed;
+    display: table;
+    vertical-align: middle;
+}
+
+.btn-default {
+    height: 100%;
+    font-size: 75px;
+}
+
+#display {
+    color:red;
+}
