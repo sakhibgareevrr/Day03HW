@@ -4,6 +4,15 @@ $(document).ready(function() {
             doClick(i)
         });
     }
+
+    let randomIdx = Math.floor(Math.random()*(ray.length-numberOfSteps));
+
+    ray[randomIdx] = o;
+
+    $('#btn'+randomIdx.toString()).val(o);
+
+    numberOfSteps++;
+
 });
 
 let numberOfSteps:number = 0;

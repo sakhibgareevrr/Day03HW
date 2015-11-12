@@ -7,6 +7,10 @@ $(document).ready(function () {
     for (var i = 0; i < 9; i++) {
         _loop_1(i);
     }
+    var randomIdx = Math.floor(Math.random() * (ray.length - numberOfSteps));
+    ray[randomIdx] = o;
+    $('#btn' + randomIdx.toString()).val(o);
+    numberOfSteps++;
 });
 var numberOfSteps = 0;
 var ray = ['', '', '', '', '', '', '', '', ''];
